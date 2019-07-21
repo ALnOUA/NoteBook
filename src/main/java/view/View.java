@@ -8,7 +8,7 @@ import static view.Constants.WRONG_INPUT_DATA;
 
 public class View {
     // Resource Bundle Installation's
-    static String MESSAGES_BUNDLE_NAME = "messages";
+    static String MESSAGES_BUNDLE_NAME = "resources";
     public static final ResourceBundle bundle =
             ResourceBundle.getBundle(
                     MESSAGES_BUNDLE_NAME,
