@@ -1,12 +1,12 @@
 import controller.Controller;
-import model.Model;
+import model.NoteBook;
 import view.View;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Controller controller =
-                new Controller(new Model(), new View());
+                new Controller(new NoteBook(), new View());
         // Run
         controller.processUser();
     }
